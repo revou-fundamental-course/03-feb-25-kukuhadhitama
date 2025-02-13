@@ -93,3 +93,11 @@ input[type=text]:focus {
 footer {max-width: 750px;
     justify-self: center; 
 } 
+
+
+/* responsive design */
+@media only screen and (max-width:480px) {
+    main {
+        background-color: beige;
+    }
+}

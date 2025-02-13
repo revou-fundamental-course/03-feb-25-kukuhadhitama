@@ -7,12 +7,17 @@ function validateForm() {
     console.log(input.value);
 
     if(input.value == '') {
-        alert('silahkan isi data pada kolom ini');
+        alert('silahkan isi data terlebih dahulu'); 
     } else {
         console.log('berhasil di eksekusi'); 
         alert('selamat anda berhasil, semoga terbantu')
     }
-    ///Algoritma flow
+        document.getElementById('main-result').value = input.value;
+        document.getElementById('cara-konversi').value = input.value;
+        console.log('berhasil di eksekusi')
+
+
+///Algoritma flow
     console.log('berhasil di eksekusi');
 
     console.log(document.getElementById('main-input'));
