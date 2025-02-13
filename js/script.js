@@ -12,8 +12,8 @@ function validateForm() {
         console.log('berhasil di eksekusi'); 
         alert('selamat anda berhasil, semoga terbantu')
     }
-        document.getElementById('main-result').value = input.value;
-        document.getElementById('cara-konversi').value = input.value;
+        document.getElementById('main-result').value =  (input.value*1.8)+32;
+        document.getElementById('cara-konversi').value = input.value
         console.log('berhasil di eksekusi')
 
 
