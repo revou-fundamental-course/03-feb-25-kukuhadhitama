@@ -1,6 +1,79 @@
 /* ini file css */
 
-main     {max-width: 750px;
-justify-self: center; }
+main     {
+    max-width: 750px;
+    justify-self: center; 
+            
+    /* latar belakang */
+    background-color: darkseagreen;
+    border-radius: 8px;
+}
 
-.main-header {text-align: center;}
+.main-header {
+    text-align: center;
+}
+
+section {
+    padding: 8px; ;
+}
+
+.input-data {
+    display: flex;flex-direction: column;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+  
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.output-data {
+    display: flex;flex-direction: column;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+  
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.petunjuk-konversi {
+    display: flex;flex-direction: column;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+  
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.button-group {margin-top: 16px;
+}
+
